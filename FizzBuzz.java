@@ -26,7 +26,7 @@ public class FizzBuzz
 			// if (((i % 3) == 0) && ((i % 5) == 0)) out = "FizzBuzz";
 			// System.out.println(out);
 
-			int bits = 1;	// none, 3, 6
+			int bits = 1;	// none, 3, 5
 			int[] divisors = {3, 5};
 			String[] fizzbuzz = {"Fizz", "Buzz"};
 			for (int j = 0; j < divisors.length; j++)
